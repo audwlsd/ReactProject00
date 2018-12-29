@@ -1,0 +1,62 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\audwl\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add gh=pages
+
+PATH: 
+  C:\Program Files (x86)\NAT Service;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Java\jdk1.8.0_172\bin;C:\Program Files\Git\cmd;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Users\audwl\AppData\Local\Microsoft\WindowsApps;C:\Users\audwl\AppData\Roaming\npm;C:\MinGW\bin;;D:\Visual Studio 2017\Microsoft VS Code\bin
+
+Yarn version: 
+  1.12.3
+
+Node version: 
+  8.11.4
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/gh=pages: Not found
+      at Request.params.callback [as _callback] (C:\Users\audwl\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:65894:18)
+      at Request.self.callback (C:\Users\audwl\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:129018:22)
+      at emitTwo (events.js:126:13)
+      at Request.emit (events.js:214:7)
+      at Request.<anonymous> (C:\Users\audwl\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:129990:10)
+      at emitOne (events.js:116:13)
+      at Request.emit (events.js:211:7)
+      at IncomingMessage.<anonymous> (C:\Users\audwl\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:129912:12)
+      at Object.onceWrapper (events.js:313:30)
+      at emitNone (events.js:111:20)
+
+npm manifest: 
+  {
+    "name": "myeongjin",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+      "react": "^16.7.0",
+      "react-dom": "^16.7.0",
+      "react-lines-ellipsis": "^0.14.0",
+      "react-scripts": "2.1.2"
+    },
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test",
+      "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+      "extends": "react-app"
+    },
+    "browserslist": [
+      ">0.2%",
+      "not dead",
+      "not ie <= 11",
+      "not op_mini all"
+    ],
+    "homepage": "https://github.com/audwlsd/ReactProject00"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
